@@ -25,7 +25,7 @@ const Profile = () => {
   const [activeTab, setActiveTab] = useState<"progress" | "career" | "account">("progress");
 
   const handleLogout = () => {
-    // TODO: Implement actual logout with Lovable Cloud
+    // TODO: Implement actual logout
     navigate("/login");
   };
 
